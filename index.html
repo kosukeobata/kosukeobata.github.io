@@ -1,73 +1,23 @@
-<!doctype html>
-<html class="no-js">
-<head>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="cleartype" content="on">
-<title>Obata's manual</title>
+---
+layout: default
+---
 
-<link rel="stylesheet" href="css/components.css">
+<div class="home">
 
-<style>
-h1 {
-    color: #3372df;
-}
-h3 {
-    padding-top: 1.6250em;
-}
-ul, p {
-    padding-top: 1em;
-}
-ul {
-    list-style-type: disc;
-    padding-left: 30px;
-}
-ul li {
-    padding-left: 0;
-}
-ul li:before {
-    content: "";
-}
-.container {
-    padding-bottom: 77px;
-}
-</style>
-</head>
-<body>
-    <div class="container">
-        <h1>Obata's manual</h1>
+  <h1 class="page-heading">MementoMori</h1>
 
-        <h3>小畑宏介</h3>
-        <p>エンジニア / 東京</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h3>出身地</h3>
-        <p>箕面(大阪)</p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-        <h3>好きな食べ物</h3>
-        <ul>
-            <li>ばなな</li>
-            <li>納豆</li>
-            <li>フレンチトースト</li>
-        </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-        <h3>趣味</h3>
-        <ul>
-            <li>写真</li>
-            <li>散歩</li>
-            <li>コーヒー</li>
-        </ul>
-
-        <h3>リンク</h3>
-        <ul>
-            <li><a href="http://mementomori.info/">Blog</a></li>
-            <li><a href="http://github.com/kosukeobata">GitHub</a></li>
-            <li><a href="https://twitter.com/Mymedia_3ch">Twitter</a></li>
-            <li><a href="https://www.facebook.com/kousuke.obata">Facebook</a></li>
-            <li><a href="http://jp.linkedin.com/in/kosukeobata">Linkedin</a></li>
-        </ul>
-    </div>
-</body>
-</html>
+</div>
