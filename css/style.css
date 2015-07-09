@@ -1,4 +1,4 @@
-.pg--top-main {
+.pg-top-main {
 	position: relative;
 	height: 670px;
 	background-image: url("../img/combodia2.jpg-");
@@ -7,7 +7,7 @@
 	background-position: 50%, 50%;
 }
 
-.pg--top-main::after {
+.pg-top-main::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -18,7 +18,7 @@
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
-.pg--name {
+.pg-name {
 	text-align: -webkit-right;
 	padding-top: 250px;
 	margin-left: auto;
@@ -29,44 +29,44 @@
 	color: #3d3d3d;
 }
 
-.pg--introduce {
+.pg-introduce {
 	padding-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 950px;
 }
 
-.pg--learn-about {
+.pg-learn-about {
 	padding-top: 50px;
 	padding-bottom: 40px;
 }
 
-.pg--learn-detail {
+.pg-learn-detail {
 	width: 280px;
 	word-break: normal;
 }
 
-.pg--learn-about h1 {
+.pg-learn-about h1 {
 	margin-left: 350px;
 	padding-bottom: 20px;
 }
 
-.pg--language {
+.pg-language {
 	height: 680px;
 	background-color: #4683b4;
 }
 
-.pg--language h1 {
+.pg-language h1 {
 	
 }
 
-.pg--hobby {
+.pg-hobby {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.pg--photo-works {
+.pg-photo-works {
 	width: 105px;
 	padding-top: 3px;
 	padding-bottom: 3px;
@@ -79,7 +79,7 @@
 	background-color: #449;
 }
 
-.pg--photo-works p {	
+.pg-photo-works p {	
 	font-size: 12px;
 	color: aliceblue;
 }
@@ -94,7 +94,7 @@
 	text-align: center;
 }
 
-.pg--sns-info {
+.pg-sns-info {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
