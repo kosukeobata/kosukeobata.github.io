@@ -28,7 +28,10 @@ body {
   text-size-adjust:100%;
 }
 
-article, aside, dialog, figure, footer, header, main, menu, nav, section {display:block;}
+article, aside, dialog, figure, footer, header, main, menu, nav, section {
+  display:block;
+}
+
 audio, canvas, video {display:inline-block;}
 
 br,
@@ -41,8 +44,5 @@ h1,h2,h3,h4 {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-p {
-  font-family: 'Merriweather Sans', sans-serif;
-}
 .cf:before, .cf:after { content: ""; display: block; clear: both; height: 0; visibility: hidden; }
 .cf     { zoom: 1; }

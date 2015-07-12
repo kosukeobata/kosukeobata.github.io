@@ -1,7 +1,18 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	content: ".";
+}
+
 .pg-top-main {
 	position: relative;
-	height: 670px;
-	background-image: url("../img/combodia2.jpg-");
+	height: 710px;
+	background-image: url("../img/profile.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%, 50%;
@@ -26,19 +37,30 @@
 	max-width: 950px;
 	position: relative;
 	z-index: 10;
-	color: #3d3d3d;
+	color: #4683b4;
 }
 
 .pg-introduce {
+	color: #4683b4;
 	padding-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 950px;
+	max-width: 1000px;
+}
+
+.pg-introduce-detail {
+	text-align: center;
 }
 
 .pg-learn-about {
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.pg-learn-about section {
+	width: 300px;
+	margin-left: 20px;
+	float: left;
 }
 
 .pg-learn-detail {
@@ -47,65 +69,138 @@
 }
 
 .pg-learn-about h1 {
-	margin-left: 350px;
+	font-size: 40px;
+	text-align: center;
 	padding-bottom: 20px;
 }
 
 .pg-language {
-	height: 680px;
+	color: #f2f2f2;
 	background-color: #4683b4;
+	padding-bottom: 40px;
 }
 
 .pg-language h1 {
-	
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
-.pg-hobby {
-	max-width: 900px;
+.pg-learn-category {
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.pg-photo-works {
-	width: 105px;
+.pg-learn-button {
+	width: 140px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-bottom: 40px;
-	margin-top: 30px;
-	margin-left: 350px;
-	border-radius: 4px;
-	background-color: #449;
-}
-
-.pg-photo-works p {	
-	font-size: 12px;
-	color: aliceblue;
-}
-
-.auther-info {
-	max-width: 400px;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
+	margin-top: -20px;
+	border-radius: 4px;
+	background-color: #f2f2f2;
 }
 
-.auther-info small {
+.pg-learn-button p {
+	display: block;
+	font-size: 15px;
+	color: #4683b4;
 	text-align: center;
 }
 
+.pg-learn-button a {
+	color: #4683b4;
+}
+
+.pg-travel-detail {
+	margin-bottom: 30px;
+}
+
+.pg-learn-category section {
+	width: 220px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+.pg-learn-category img {
+	width: 220px;
+	height: 220px;
+}
+
+.pg-learn-category h2 {
+	text-align: center;
+}
+
+.pg-learn-category a {
+	color: #f2f2f2;
+}
+
+.pg-hobby {
+	color: #4683b4;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+}
+
+.pg-hobby h1 {
+	font-size: 40px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.pg-hobby p {
+	text-align: center;
+}
+
+.pg-travel-button {
+	width: 140px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -20px;
+	border-radius: 4px;
+	background-color: #4683b4;
+}
+
+.pg-travel-button p {
+	display: block;
+	font-size: 15px;
+	color: #f2f2f2;
+	text-align: center;
+}
+
+.pg-travel-button a {
+	color: #f2f2f2;
+}
+
 .pg-sns-info {
+	max-width: 126px;
+	margin-right: auto;
+	margin-left: auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 .pg-sns-info img {
-	height: 25px;
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 footer {
-	height: 250px;
+	height: 240px;
 	background-color: #4683b4;
 }
 
+footer small {
+	display: block;
+	text-align: center;
+	color: #f2f2f2;
+}
 
